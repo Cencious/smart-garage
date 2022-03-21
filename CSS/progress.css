@@ -10,15 +10,36 @@ body {
     text-align: center;
     color: white;
 }
+
+.card1 {
+    position: absolute;
+    left: -30%;
+    z-index: -1;
+}
 .block1{
     background-color: white;
     width: 30%;
     height: 60vh;
     margin-left: 30%;
     color: black;
+    position: relative;
+    overflow: visible;
+    z-index: 100;
+}
+
+.details {
+    width: 30%;
+    margin-left: 35%;
 }
 
 .checks {
     display: flex;
     flex-direction: column;
+}
+
+.notify {
+    background-color: white;
+    width: 30%;
+    height: 40vh;
+    color: black;
 }

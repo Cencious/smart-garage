@@ -22,74 +22,95 @@
   <body>
       <h3>Smart Garage Progress Tracking</h3>
 
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="./IMG/Garage_images/garage4.jpg" alt="Card image cap">
-        
+      <div class="details">
+        car owner
+        <input class="form-control" type="text" placeholder="John Parvard" aria-label="default input example">
+
+        registration plate
+        <input class="form-control" type="text" placeholder="KCZ..." aria-label="default input example">
+
       </div>
 
+      
+
      <div class="block1">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="engine" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              ENGINE
-            </label>
-          </div>
 
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="fuel-system" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              FUEL SYSTEM
-            </label>
-          </div>
+        
 
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="exhaust-system" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              EXHAUST SYSTEM
-            </label>
-          </div>
+         <div class="container">
+             <p>Repair checklist</p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="engine" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  engine
+                </label>
+              </div>
+    
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="fuel-system" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  fuel system
+                </label>
+              </div>
+    
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="exhaust-system" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  exhaust system
+                </label>
+              </div>
+    
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="cooling-system" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  cooling system
+                </label>
+              </div>
+    
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="lubrication system" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  lubrication system
+                </label>
+              </div>
+    
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="electrical-system" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  electrical system
+                </label>
+              </div>
+    
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="transmission" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  transmission
+                </label>
+              </div>
+    
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="chassis" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  chassis
+                </label>
+              </div>
+    
+              Is repair complete?
+              <select class="form-select" aria-label="Default select example">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+              </select>
+         </div>       
+         </div>
+        
 
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="cooling-system" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              COOLING SYSTEM
-            </label>
-          </div>
+     <div class="notify">
+         <p>notify car owner on progress</p>
+         <button type="button" class="btn btn-dark">Dark</button>
 
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="lubrication system" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              LUBRICATION SYSTEM
-            </label>
-          </div>
+         <p>notify car owner on completion</p>
+         <button type="button" class="btn btn-dark">Dark</button>
 
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="electrical-system" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              ELECTRICAL SYSTEM
-            </label>
-          </div>
-
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="transmission" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              TRANSMISSION
-            </label>
-          </div>
-
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="chassis" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              CHASSIS
-            </label>
-          </div>
-
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Is repair complete?</option>
-            <option value="yes">yes</option>
-            <option value="no">no</option>
-          </select>
-     </div>       
-
+     </div>
   </body>
 </html>
