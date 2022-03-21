@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+.block1{
+    background-color: white;
+    width: 30%;
+    height: 60vh;
+    margin-left: 30%;
+    color: black;
+}
+
+.checks {
+    display: flex;
+    flex-direction: column;
+}
