@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.about-us {
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #80a09b;
+}
+.about-us img {
+  height: auto;
+  width: 450px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h1 {
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text h5 {
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+span{
+    color: red;
+}
