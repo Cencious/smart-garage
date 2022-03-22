@@ -24,10 +24,10 @@
 
       <div class="details">
         car owner
-        <input class="form-control" type="text" placeholder="John Parvard" aria-label="default input example">
+        <input class="form-control" type="text" id="car-owner" placeholder="John Parvard" aria-label="default input example">
 
         registration plate
-        <input class="form-control" type="text" placeholder="KCZ..." aria-label="default input example">
+        <input class="form-control" type="text" id="plate" placeholder="KCZ..." aria-label="default input example">
 
       </div>
 
@@ -40,63 +40,63 @@
          <div class="container">
              <p>Repair checklist</p>
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="engine" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" name="repair" id="engine" value="engine" >
                 <label class="form-check-label" for="flexCheckDefault">
                   engine
                 </label>
               </div>
     
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="fuel-system" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" name="repair" id="fuel" value="fuel-system" >
                 <label class="form-check-label" for="flexCheckDefault">
                   fuel system
                 </label>
               </div>
     
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="exhaust-system" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" name="repair" id="exhaust" value="exhaust-system" >
                 <label class="form-check-label" for="flexCheckDefault">
                   exhaust system
                 </label>
               </div>
     
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="cooling-system" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" name="repair" id="cooling" value="cooling-system" >
                 <label class="form-check-label" for="flexCheckDefault">
                   cooling system
                 </label>
               </div>
     
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="lubrication system" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" name="repair" value="lubrication system" id="lubrication">
                 <label class="form-check-label" for="flexCheckDefault">
                   lubrication system
                 </label>
               </div>
     
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="electrical-system" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" name="repair" value="electrical-system" id="electrical">
                 <label class="form-check-label" for="flexCheckDefault">
                   electrical system
                 </label>
               </div>
     
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="transmission" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" name="repair" value="transmission" id="transmission">
                 <label class="form-check-label" for="flexCheckDefault">
                   transmission
                 </label>
               </div>
     
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="chassis" id="flexCheckDefault">
+                <input class="form-check-input" type="checkbox" name="repair" value="chassis" id="chassis">
                 <label class="form-check-label" for="flexCheckDefault">
                   chassis
                 </label>
               </div>
     
               Is repair complete?
-              <select class="form-select" aria-label="Default select example">
+              <select class="form-select" aria-label="Default select example" id="isComplete">
                 <option value="yes">yes</option>
                 <option value="no">no</option>
               </select>
@@ -106,10 +106,10 @@
 
      <div class="notify">
          <p>notify car owner on progress</p>
-         <button type="button" class="btn btn-dark">Dark</button>
+         <button type="button" id="progress" class="btn btn-dark">Dark</button>
 
          <p>notify car owner on completion</p>
-         <button type="button" class="btn btn-dark">Dark</button>
+         <button type="button" id="completion" class="btn btn-dark">Dark</button>
 
      </div>
   </body>
