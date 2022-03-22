@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./CSS/progress.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -24,93 +26,188 @@
 
       <div class="details">
         car owner
-        <input class="form-control" type="text" id="car-owner" placeholder="John Parvard" aria-label="default input example">
+        <input class="form-control" type="text" id="car-owner" placeholder="John Parvard" aria-label="default input example" required>
 
         registration plate
-        <input class="form-control" type="text" id="plate" placeholder="KCZ..." aria-label="default input example">
+        <input class="form-control" type="text" id="plate" placeholder="KCZ..." aria-label="default input example" required>
 
       </div>
 
       
+      <div class="forms">
+        <div class="block1">
 
-     <div class="block1">
 
-        
+          <div class="container">
+              <p>Repair checklist</p>
+             <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" id="engine" value="engine" >
+                 <label class="form-check-label" for="flexCheckDefault">
+                   engine
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" id="fuel" value="fuel-system" >
+                 <label class="form-check-label" for="flexCheckDefault">
+                   fuel system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" id="exhaust" value="exhaust-system" >
+                 <label class="form-check-label" for="flexCheckDefault">
+                   exhaust system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" id="cooling" value="cooling-system" >
+                 <label class="form-check-label" for="flexCheckDefault">
+                   cooling system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" value="lubrication system" id="lubrication">
+                 <label class="form-check-label" for="flexCheckDefault">
+                   lubrication system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" value="electrical-system" id="electrical">
+                 <label class="form-check-label" for="flexCheckDefault">
+                   electrical system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" value="transmission" id="transmission">
+                 <label class="form-check-label" for="flexCheckDefault">
+                   transmission
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" value="chassis" id="chassis">
+                 <label class="form-check-label" for="flexCheckDefault">
+                   chassis
+                 </label>
+               </div>
+     
+               Is repair complete?
+               <select class="form-select" aria-label="Default select example" id="isComplete">
+                 <option value="yes">yes</option>
+                 <option value="no">no</option>
+               </select>
+          </div>       
+          </div>
+         
+ 
+      <div class="notify">
+          <p>notify car owner on progress</p>
+          <button type="button" id="progress" class="btn btn-dark">Notify progress</button>
+ 
+          <p>notify car owner on completion</p>
+          <button type="button" id="completion" class="btn btn-dark">Notify on completion</button>
+ 
+      </div>
+      </div>
+     
+      <div class="results">
 
-         <div class="container">
-             <p>Repair checklist</p>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="repair" id="engine" value="engine" >
-                <label class="form-check-label" for="flexCheckDefault">
-                  engine
-                </label>
-              </div>
-    
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="repair" id="fuel" value="fuel-system" >
-                <label class="form-check-label" for="flexCheckDefault">
-                  fuel system
-                </label>
-              </div>
-    
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="repair" id="exhaust" value="exhaust-system" >
-                <label class="form-check-label" for="flexCheckDefault">
-                  exhaust system
-                </label>
-              </div>
-    
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="repair" id="cooling" value="cooling-system" >
-                <label class="form-check-label" for="flexCheckDefault">
-                  cooling system
-                </label>
-              </div>
-    
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="repair" value="lubrication system" id="lubrication">
-                <label class="form-check-label" for="flexCheckDefault">
-                  lubrication system
-                </label>
-              </div>
-    
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="repair" value="electrical-system" id="electrical">
-                <label class="form-check-label" for="flexCheckDefault">
-                  electrical system
-                </label>
-              </div>
-    
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="repair" value="transmission" id="transmission">
-                <label class="form-check-label" for="flexCheckDefault">
-                  transmission
-                </label>
-              </div>
-    
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="repair" value="chassis" id="chassis">
-                <label class="form-check-label" for="flexCheckDefault">
-                  chassis
-                </label>
-              </div>
-    
-              Is repair complete?
-              <select class="form-select" aria-label="Default select example" id="isComplete">
-                <option value="yes">yes</option>
-                <option value="no">no</option>
-              </select>
-         </div>       
-         </div>
-        
+      </div>
 
-     <div class="notify">
-         <p>notify car owner on progress</p>
-         <button type="button" id="progress" class="btn btn-dark">Dark</button>
+      <!-- Footer -->
+<footer class="bg-dark text-center footer text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a href="https://web.facebook.com/profile.php?id=100073236677700" class="fa fa-facebook"></a>
 
-         <p>notify car owner on completion</p>
-         <button type="button" id="completion" class="btn btn-dark">Dark</button>
+      <!-- Twitter -->
+      <a href="https://twitter.com/Aust1inn" class="fa fa-twitter"></a>
 
-     </div>
+
+      <!-- Youtube -->
+      <a href="https://www.youtube.com/channel/UCJ5pzKejXZuy7E_31I76gQw" class="fa fa-youtube"></a>
+
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/aust1inn/" class="fa fa-instagram"></a>
+
+
+      <!-- Linkedin -->
+      <a href="#" class="fa fa-linkedin"></a>
+
+      <!-- Google -->
+      <a href="#" class="fa fa-google"></a>
+
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="#">Smartgarage</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
   </body>
 </html>

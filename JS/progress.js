@@ -1,9 +1,3 @@
-
-
-
-
-
-
 $(document).ready(function () {
     $("#progress").click(function () {
 
@@ -23,9 +17,9 @@ $(document).ready(function () {
         $('input[name="repair"]:checked').each(function() {
             completedParts.push(this.value);
             });
-
-        
-        
+       
+        $(".results").text(`${carPerson}  has been successfully notified that the ${completedParts} has been repaired.`)
+    
     });
 
     $("#completion").click(function() {
