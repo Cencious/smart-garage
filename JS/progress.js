@@ -24,9 +24,21 @@ $(document).ready(function () {
             completedParts.push(this.value);
             });
 
-        let isComplete = $("#isComplete").val();
         
-
-        alert(completedParts)
+        
     });
+
+    $("#completion").click(function() {
+
+        let isComplete = $("#isComplete").val();
+
+        if (isComplete == "yes") {
+           alert("user notified")
+        }
+        else {
+            alert("repair incomplete")
+        }        
+    });
+    
+    
 });
