@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container h3, h5 {
+    text-align: center;
+    margin-top: 30px;
+}
+.controls-top {
+    text-align: center;
+    margin-top: 30px;
+}
 img#john {
     height: 40vh;
     width: 30vw;
@@ -12,8 +20,9 @@ img#john {
 }
 .card-body p.word {
     text-align: center;
+    font-style: italic;
 }
 .card {
-    border: 3px solid rgb(236, 100, 100);
-    box-shadow: 30px;
+    border: none;
+    margin-top: 30px;
 }
