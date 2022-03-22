@@ -1,0 +1,13 @@
+.form_bg{
+    background-image: url("./image/garage.png");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: dimgrey;
+}
+
+.form_horizontal{
+    font-family: 'lato', sans-serif;
+    text-align: center;
+
+}
