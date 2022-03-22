@@ -17,9 +17,13 @@ $(document).ready(function () {
         $('input[name="repair"]:checked').each(function() {
             completedParts.push(this.value);
             });
-       
-        $(".results").text(`${carPerson}  has been successfully notified that the ${completedParts} has been repaired.`)
-    
+
+            if (carPerson=="" || plate=="") {
+                alert("Please fill in car details")
+            }
+            else {
+                $(".results").text(`${carPerson}  has been successfully notified that the ${completedParts} has been repaired.`)
+            }
     });
 
     $("#completion").click(function() {
