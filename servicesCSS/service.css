@@ -27,7 +27,7 @@
 
 .bg-image h1 {
     text-align: center;
-    color: rgb(228, 7, 99);
+    color: red;
     padding-top: 100px;
     font-size: 40px;
 }
@@ -82,7 +82,7 @@
 
 .what h2{
     text-align: center;
-    color: rgb(228, 7, 99);
+    color: red;
     padding: 20px;
 }
 
