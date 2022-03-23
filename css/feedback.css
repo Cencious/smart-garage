@@ -1,33 +1,69 @@
-* {
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container {
-    background-color: black;
+body {
+    background-color: linear-gradient(-100deg,white 50%,darkred 50%);
+    height: 100vh;
+    @import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap%27);
+    font-family: 'Roboto';
 }
-.container h3, h5 {
+.container {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 5%;
+}
+.img-text {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 5% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+    padding-top: 60%;
+    font-style: italic;
+}
+.single-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+.img-area {
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 5%;
+    left: 25%;
+    border-radius: 50%;
+}
+.img-area img {
+    width: 100%;
+}
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+.carousel-indicators li {
+    background: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.carousel-indicators .active {
+    background: rgb(248, 0, 0);
+}
+h3.bg {
+    background-color: darkred;
     color: white;
 }
 .controls-top {
     text-align: center;
     margin-top: 30px;
-    color: white;
+    color: darkred
 }
-img#person {
-    height: 40vh;
-    width: 30vw;
-    border-radius: 50%;
-    margin: auto;
-    margin-top: 20px;
-}
-.card-body p.word {
-    text-align: center;
-    font-style: italic;
-}
-.card {
-    border: none;
-    margin-top: 30px;
-}
+
