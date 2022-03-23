@@ -1,9 +1,12 @@
 .form_bg{
     background-image: url("./image/garage.png");
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
-    background: dimgrey;
+
+}
+img{
+    height: auto;
 }
 
 .form_horizontal{
