@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: linear-gradient(-100deg,white 50%,rgb(240, 40, 40) 50%);
+    background-image: linear-gradient(10deg,white 50%,rgb(190, 25, 25) 50%);
     height: 100vh;
     @import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap%27);
     font-family: 'Roboto';
@@ -14,11 +14,12 @@ body {
     margin-top: 2%;
 }
 h4.controls-top  {
-    color: black;
+    color: white;
     font-weight: 800;
 }
 h5 {
     font-weight: 900;
+    color: white;
 }
 .img-text {
     width: 100%;
@@ -54,7 +55,7 @@ h5 {
     bottom: -70px;
 }
 .carousel-indicators li {
-    background: rgb(0, 47, 255);
+    background: rgb(255, 51, 0);
     border-radius: 50%;
     width: 17px;
     height: 5px;
