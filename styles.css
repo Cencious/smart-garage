@@ -1,8 +1,9 @@
 body{
-    background-image: url("./images/landing3.jpg");
+    background-image: url("./images/Landing.png");
     background-repeat: no-repeat;
     background-size: cover;
     font-family:Roboto;
+    /* opacity:0.5; */
 }
 
 h1{
@@ -16,42 +17,47 @@ h1{
     color:white;
     font-family:poppins;
 }
-.nav{
+/* .nav{
     position:relative;
     float: right;
     align-items: center;
     list-style-type: none;
-    background-color:black;
+    background-color:rgb(100, 29, 29);
     width: 97%;
     transition: 0.5s;
     padding: 15px;
     margin-top: 5px;
-}
-.nav ul{
+} */
+ul{
     display: inline-block;
     display:flex;
     align-items:center;
 }
-.nav ul li{
+ ul li{
     display: inline-block;
 }
-.nav ul li a{
+ul li a{
     padding: 5px;
     align-items: center;
     text-decoration: none;
     color: white;
 }
-.nav ul li a:hover{
+#myAnchor{
+    display: inline-block;
+    font-size: 12px;
+    font-family: Poppins;
+}
+ul li a:hover{
     transition: 0.5s;
-    background-color: rgb(95, 177, 166);
-    color:black;
+    background-color: rgb(30, 32, 32);
+    color:rgb(161, 144, 144);
 }
 .welcome-text{
     position: relative;
     width: 500px;
     height: 400px;
     margin:20% 30%;
-    font: size 40px;
+    font: size 45px;
     text-align: center;
     color: white;
 }
@@ -67,8 +73,9 @@ p{
     position: relative;
     /* max-width: 800px; Maximum width */
     margin: 0 auto; /* Center it */
+
 }
-.img1,.img2,.img3 {
+.img1,.img2{
     position: relative;
     max-width: 900px; /* Maximum width */
     margin: 0 auto; /* Center it */
@@ -89,8 +96,8 @@ p{
 footer{
 
     position:relative;
-    background-color:rgb(241, 234, 234);
-    padding: 25px;
+    background-color:rgb(44, 42, 42);
+    padding: 2px;
     width: 100%;
     font-family:Roboto;
     margin-bottom: 15px;
@@ -100,10 +107,14 @@ footer{
    
 }
 .icons{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 100px;
     display:flex;
-    padding-inline-end:10px;
+    /* flex-directionflow(row ) */
+    /* align-items:center; */
+    /* padding-left: 20px; */
+    /* padding10px;-inline-end: */
+    color: white;
 
 }
 
