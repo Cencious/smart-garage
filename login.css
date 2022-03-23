@@ -3,14 +3,17 @@
     height: 100%;
     display: flex;
     align-items: center;
-
-}
-img{
-    height: auto;
 }
 
-.form_horizontal{
-    font-family: 'lato', sans-serif;
+.forn_horizontal1{
+    font-family: sans-serif;
     text-align: center;
+}
+
+.form_horizontal1 .form_icon{
+    color: black;
+    font-size: 100px;
+    line-height: 80px;
+    margin: 0 0 14px;
 
 }
