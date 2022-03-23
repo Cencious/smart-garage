@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .bg-image h1 {
@@ -75,7 +75,7 @@
 }
 
 .col p{
-    display: none;
+    /* display: none; */
     text-align: center;
     font-size: 15px;
 }
@@ -83,13 +83,19 @@
 .what h2{
     text-align: center;
     color: rgb(228, 7, 99);
+    padding: 20px;
 }
 
 .col h5{
     color: black;
 }
 
-.card1, .card2, .card3, .card4{
+.card1, 
+.card2, 
+.card3, 
+.card4, 
+.card5, 
+.card6 {
     padding: 0 10px;
     margin: 20px;
 }
