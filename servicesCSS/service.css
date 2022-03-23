@@ -13,16 +13,18 @@
     height: 100vh;
 }
 
-.mask{
+.mask {
     height: 100vh;
 }
-.text-services{
+
+.text-services {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
 }
+
 .bg-image h1 {
     text-align: center;
     color: rgb(228, 7, 99);
@@ -37,4 +39,57 @@
     font-size: 25px;
     font-weight: 400;
     color: whitesmoke;
+}
+
+.btn {
+    padding: 20px;
+    margin: 10PX;
+    border-radius: 10px;
+    border: none;
+    color: rgb(228, 7, 99);
+
+}
+
+.btn :hover {
+    background-color: black;
+}
+
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 30px;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150PX;
+}
+
+.col{
+    width: 25%;
+}
+
+.col p{
+    display: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.what h2{
+    text-align: center;
+    color: rgb(228, 7, 99);
+}
+
+.col h5{
+    color: black;
+}
+
+.card1, .card2, .card3, .card4{
+    padding: 0 10px;
+    margin: 20px;
 }
