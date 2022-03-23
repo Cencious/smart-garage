@@ -4,14 +4,21 @@
     box-sizing: border-box;
 }
 body {
-    background-color: linear-gradient(-100deg,white 50%,darkred 50%);
+    background-image: linear-gradient(-100deg,white 50%,rgb(240, 40, 40) 50%);
     height: 100vh;
     @import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap%27);
     font-family: 'Roboto';
 }
-.container {
+.container-lg {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
+}
+h4.controls-top  {
+    color: black;
+    font-weight: 800;
+}
+h5 {
+    font-weight: 900;
 }
 .img-text {
     width: 100%;
@@ -47,16 +54,32 @@ body {
     bottom: -70px;
 }
 .carousel-indicators li {
-    background: #000;
+    background: rgb(0, 47, 255);
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 5px;
     cursor: pointer;
     margin-right: 5px;
 }
-.carousel-indicators .active {
-    background: rgb(248, 0, 0);
+.carousel-control-prev, .carousel-control-next {
+	width: 30px;
+	height: 30px;
+    background: #666;
+    text-shadow: none;
+	top: -50px;
+    border-radius: 50%;
 }
+.carousel-indicators .active {
+    background: rgb(0, 0, 0);
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 16px;
+}
+.carousel-control-prev {
+	/* left: auto; */
+	right: 40px;
+}
+
 h3.bg {
     background-color: darkred;
     color: white;
@@ -66,7 +89,20 @@ h3.bg {
     margin-top: 30px;
     color: darkred
 }
-textarea {
-    width: 50%;
+.form-outline {
+    width: 60%;
+    margin: auto;
     height: 20vh;
+}
+textarea {
+    width: 100%;
+}
+.form-outline h3 {
+    font-weight: 800;
+}
+.btn {
+    background-color: darkred;
+    color: white;
+    border-radius: 5px;
+    
 }
