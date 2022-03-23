@@ -21,7 +21,7 @@ body {
     background: #262626;
     color: #fff;
     border-radius: 15px;
-    padding-top: 60%;
+    padding-top: 40%;
     font-style: italic;
 }
 .single-box {
@@ -66,4 +66,7 @@ h3.bg {
     margin-top: 30px;
     color: darkred
 }
-
+textarea {
+    width: 50%;
+    height: 20vh;
+}
