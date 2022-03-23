@@ -2,6 +2,7 @@ body{
     background-image: url("./images/landing3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family:Roboto;
 }
 
 h1{
@@ -16,6 +17,7 @@ h1{
     font-family:poppins;
 }
 .nav{
+    position:relative;
     float: right;
     align-items: center;
     list-style-type: none;
@@ -23,7 +25,7 @@ h1{
     width: 97%;
     transition: 0.5s;
     padding: 15px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .nav ul{
     display: inline-block;
@@ -44,32 +46,66 @@ h1{
     background-color: rgb(95, 177, 166);
     color:black;
 }
-/* p{
+.welcome-text{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin:20% 30%;
+    font: size 40px;
+    text-align: center;
+    color: white;
+}
+p{
     font-size: 20px;
     color: white;
     align-items:center;
     text-align:center;
-} */
-/* brief{
-    display: flex;
-    flex-direction: row;
-    height:100vh;
-    align-i.tems:center;
-} */
-.images{
-    margin: bottom 15px;
-    margin-top:10px;
+}
+.container {
+    display:flex;
+    background-color: white;
+    position: relative;
+    /* max-width: 800px; Maximum width */
+    margin: 0 auto; /* Center it */
+}
+.img1,.img2,.img3 {
+    position: relative;
+    max-width: 900px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.content {
+    position: absolute;
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 50%; 
+    padding: 15px; 
 }
 
 footer{
-    background-color:black;
+
+    position:relative;
+    background-color:rgb(241, 234, 234);
     padding: 25px;
     width: 100%;
+    font-family:Roboto;
     margin-bottom: 15px;
-    color:white;
+    color:rgb(7, 7, 7);
     text-align:center;
     align-items:center;
    
 }
+.icons{
+    height: 50px;
+    width: 50px;
+    display:flex;
+    padding-inline-end:10px;
+
+}
+
 
    
