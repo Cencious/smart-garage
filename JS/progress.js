@@ -77,6 +77,9 @@ $(document).ready(function () {
         if (isComplete == "no") {
            alert("repair incomplete")
         }
+        else if (carPerson=="" || plate=="") {
+            alert("please fill in car details")
+        }
         else {
             $(".forms").hide();
             $(".results").text(`${carPerson} successfully notified that the repair is complete`)
