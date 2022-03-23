@@ -7,7 +7,7 @@
 .about-us {
   width: 100%;
   padding: 78px 0px;
-  background-color: #80a09b;
+  background-color: #000707;
 }
 .about-us img {
   height: 350;
@@ -21,15 +21,16 @@
   align-items: center;
   justify-content: space-around;
 }
+.main h6 {
+  color: red;
+}
 .about-text h1 {
-  color: white;
-  font-size: 50px;
+  color: rgb(224, 201, 201);
+  font-size: 30px;
   text-transform: capitalize;
   margin-bottom: 20px;
   margin-left: 5px;
-  color: black;
-
-}
+  }
 .about-text h5 {
   color: white;
   font-size: 25px;
@@ -38,29 +39,39 @@
   letter-spacing: 2px;
   margin-left: 5px;
 }
-span{
-    color: red;
+span {
+  color: red;
 }
-.about-text p{
-    color: rgb(48, 9, 155);
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
-    margin-left: 5px;
+.about-text p {
+  color: rgb(225, 222, 233);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  margin-left: 5px;
 }
-button{
-    background: #bb0cf0e3;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
+button {
+  background: #f00c0ce3;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
 }
-button:hover{
-    background: transparent;
-    border: 2px solid;
-    cursor: pointer;
+button:hover {
+  background: transparent;
+  border: 2px solid;
+  cursor: pointer;
+}
+.image h6 {
+  color: white;
+  background-color: gray;
+}
+.image {
+  background-color: grey;
+}
+.image img {
+  width: 600px;
 }
