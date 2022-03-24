@@ -104,7 +104,7 @@ th:last-child {
     margin: 70px, 0;
 }
 
-.category1 {
+.category1 , .category2 {
     max-width: 1080px;
     margin: auto;
     padding-left: 25px;
