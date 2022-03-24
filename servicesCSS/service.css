@@ -72,7 +72,10 @@
     color: red;
 }
 
-
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
 
 @media only screen and (max-width: 768px) {
     .bg-image {
