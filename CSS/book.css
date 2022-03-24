@@ -28,6 +28,17 @@
     height: 100vh;
     width: 100%;   
 } 
+navbar-brand img {
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 10%;
+}
+nav#navigation ul li a {
+    color: black;
+}
+span#no {
+    color: black;
+}
 .span{
     color: red;
 }
