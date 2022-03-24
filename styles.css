@@ -1,122 +1,78 @@
-body{
-    background-image: url("./images/Landing.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family:Roboto;
-    /* opacity:0.5; */
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
-h1{
-    font-size: 60px;
-    margin-top: 20px;
-    text-transform:uppercase;
-    font-weight:600;
-    
-    text-align:center;
-
-    color:white;
-    font-family:poppins;
-}
-/* .nav{
-    position:relative;
-    float: right;
-    align-items: center;
-    list-style-type: none;
-    background-color:rgb(100, 29, 29);
-    width: 97%;
-    transition: 0.5s;
-    padding: 15px;
-    margin-top: 5px;
-} */
-ul{
-    display: inline-block;
-    display:flex;
-    align-items:center;
-}
- ul li{
-    display: inline-block;
-}
-ul li a{
-    padding: 5px;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-}
-#myAnchor{
-    display: inline-block;
-    font-size: 12px;
-    font-family: Poppins;
-}
-ul li a:hover{
-    transition: 0.5s;
-    background-color: rgb(30, 32, 32);
-    color:rgb(161, 144, 144);
-}
-.welcome-text{
-    position: relative;
-    width: 500px;
-    height: 400px;
-    margin:20% 30%;
-    font: size 45px;
-    text-align: center;
-    color: white;
-}
-p{
-    font-size: 20px;
-    color: white;
-    align-items:center;
-    text-align:center;
-}
-.container {
-    display:flex;
+body {
     background-color: white;
-    position: relative;
-    /* max-width: 800px; Maximum width */
-    margin: 0 auto; /* Center it */
-
-}
-.img1,.img2{
-    position: relative;
-    max-width: 900px; /* Maximum width */
-    margin: 0 auto; /* Center it */
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
-.content {
-    position: absolute;
-    bottom: 0; 
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1;
-    width: 50%; 
-    padding: 15px; 
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-footer{
-
-    position:relative;
-    background-color:rgb(44, 42, 42);
-    padding: 2px;
-    width: 100%;
-    font-family:Roboto;
-    margin-bottom: 15px;
-    color:rgb(7, 7, 7);
-    text-align:center;
-    align-items:center;
-   
+.navbar-brand img {
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 10%;
 }
-.icons{
-    height: 60px;
-    width: 100px;
-    display:flex;
-    /* flex-directionflow(row ) */
-    /* align-items:center; */
-    /* padding-left: 20px; */
-    /* padding10px;-inline-end: */
+nav#navigation ul li a {
+    color: black;
+}
+span#no {
+    color: black;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* header section */
+
+input.btn {
     color: white;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    margin-bottom: 5%;
 
+}
+.card {
+    width: 45%;
+    text-align: center;
+    margin-top: 5%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.705);
+    height: auto;
+    margin-bottom: 5%;
+}
+.card strong {
+    color: rgb(194, 49, 49);
+    font-size: 36px;
+    margin-top: 9%;
+}
+.img-fluid {
+    height: 300px;
+    margin-top: 5%;
 }
 
 
-   
+/* contact form styles */
+
+.my-contact {
+    background-image: url("../images/landing3.jpg");
+    background-size: 100% 100%;
+    margin-top: 10%;
+    color: white;
+}
+
+.col-md-6 , .col-sm-6 , .col-md-12 , .col-sm-12{
+    margin-bottom: 2%;
+}
