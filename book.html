@@ -17,7 +17,7 @@
         <div class="container text-center">
             <h2><span> BOOK AN APPOINTMENT FOR YOUR CAR</span></h2>
             <div class="img-fluid mombasa">
-                <img src="./images/kisumuimg.jpeg" height="auto" alt="">
+                <img src="./images/hybrid.jpeg" height="auto" alt="">
             </div>
         </div>
     </div> -->
@@ -103,43 +103,42 @@
         </div>
     </div>
     <div class="container-fluid text-center">
-        <h5>Book an appointment</h5>
+        <h5><span class="span">BOOK A SESSION FOR YOUR CAR</span></h5>
         <div class="row justify-content-center book">
             <div class="col-12 col-sm-6 col-md-3">
                 <form action="" class="form-container">
-                    <div class="form-group">
+                    <div class="form-group" >
                         <label class="form-label">FULL NAME</label>
-                        <input type="text" placeholder="Full Name" class="form-control" required />
+                        <input type="text" placeholder="Full Name" id="name"  class="form-control" required />
                     </div>
-                    <div class="form-group">
+                    <div class="form-group" >
                         <label class="form-label"> EMAIL ADDRESS</label>
-                        <input type="email" placeholder="example@email.com" class="form-control" required />
-                    </div>
-                    <label class="form-label">TYPE OF VEHICLE</label><br>
-                    <select name="vehicles">
-                        <option value="cars">Cars</option>
-                        <option value="lorries">Lorries</option>
-                        <option value="bus">Bus</option>
-                        <option value="pick ups">Pick ups</option>
-                    </select>
-                    <div class="form-group"><br>
-                        <label class="form-label">DATE</label>
-                        <input type="date" class="form-control" />
+                        <input type="email" id="email" placeholder="example@email.com" value="email" class="form-control" required />
                     </div>
                     <div class="form-group">
+                        <label class="form-label">TYPE OF VEHICLE</label><br>
+                        <select name="">
+                            <option value="cars">Cars</option>
+                            <option value="lorries">Lorries</option>
+                            <option value="bus">Bus</option>
+                            <option value="pick ups">Pick ups</option>
+                        </select>
+                    </div>
+                    <div class="form-group" ><br>
+                        <label class="form-label">DATE</label>
+                        <input type="date" id="date" class="form-control" value="date" />
+                    </div>
+                    <div class="form-group" >
                         <label class="form-label">TIME</label>
-                        <input type="time" class="form-control" />
+                        <input type="time"  id="time" class="form-control" value="time" />
                     </div>
                     <div>
-                        <input type="button" class="btn btn-primary btn-block" value="BOOK">
+                        <input type="button" class="btn btn-primary btn-block" id="button" value="BOOK">
                     </div>
             </div>
             </form>
         </div>
-
-
     </div>
-
     </div>
 
     <!-- Optional JavaScript -->
