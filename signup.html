@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Smart-Garage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"rel="stylesheet">
+    <!---Stylesheet--->
+    <style>
+      *
+*:before,
+*:after{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+        
+body {
+  background-color: #080710;
+  font-family: "Roboto", sans-serif;
+}
+
+.background{
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+}
+
+.background .shape{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape:first-child{
+  background: linear-gradient(
+ #1845ad,
+ #23a2f6
+  );
+  left: -80px;
+  top: -80px;
+}
+
+.shape:last-child{
+  background: linear-gradient(
+  to right,
+  #ff512f,
+  #f09819
+ );
+  right: -110px;
+  bottom: -110px;
+}
+
+.signup-box {
+  width: 360px;
+  height: 590px;
+  margin-top: auto;
+  background-color: rgba(255,255,255,0.13);
+  border-radius: 3px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  padding: 50px 35px
+  
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  margin-top: 10px;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+}
+
+form {
+  width: 280px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Poppins',sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+  margin-top: 3px;
+
+
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  
+}
+input[type="button"]{
+  width: 300px;
+  height: 35px;
+  margin-top: 15px;
+  border: none;
+  background-color: #49c1a2;
+  color: #e5e5e5;
+  font-size: 18px;
+  
+}
+p{
+  text-align: center;
+  padding-top: 1px;
+  font-size: 15px;
+  color: white;
+  
+}
+
+.para-2{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+} 
+
+.para-2 a{
+  color:#49c1a2
+   
+}
+
+    </style>
+
+</head>
+<body>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>It's free and only takes a minute</h4>
+        <form>
+            <label>First Name</label>
+            <input type="text" placeholder="">
+            <label>Last Name</label>
+            <input type="text" placeholder="">
+            <label>Email Name</label>
+            <input type="email" placeholder="">
+            <label>Password</label>
+            <input type="password" placeholder="">
+            <label>Confirm Password</label>
+            <input type="password" placeholder="">
+            <input type="button" value="Submit">
+
+        </form>
+        <p>By clicking the Sign Up button,you agree to our <br> 
+        <a href="#">Terms and Conditions</a> and <a href="#">Policy</a>
+    </p> 
+  <p class="para-2">Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+</body>
+</html>
