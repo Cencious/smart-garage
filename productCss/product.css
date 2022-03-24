@@ -96,13 +96,34 @@ th:last-child {
 
 .cats{
     flex-basis: 25%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     min-width: 250px;
+    padding-left: 10px;
+    transition: transform 0.5s ;
 }
 
-.cats img{
-    width: 50%;
+.cats :hover{
+    transform: translateY(-5px);
 }
+
+.cats h4{
+    position: relative;
+    font-size: 14px;
+    padding-top: 5px;
+    font-weight: 400;
+   
+}
+
+
+
+.cats img{
+    width: 100%;
+}
+
+.rating ion-icon{
+color: red;
+}
+
 @media only screen and (max-width:600px){
 
     .product-item p{
