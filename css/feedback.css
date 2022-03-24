@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body {
     background-image: linear-gradient(10deg,white 50%,rgb(190, 25, 25) 50%);
@@ -9,10 +10,15 @@ body {
     @import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap%27);
     font-family: 'Roboto';
 }
-.container-lg {
+.container-fluid-lg {
     text-align: center;
-    margin-top: 2%;
+    margin-top: 5%;
+    
 }
+nav {
+    margin-top: 1%;
+}
+
 h4.controls-top  {
     color: white;
     font-weight: 800;
@@ -26,7 +32,7 @@ h5 {
     display: block;
     text-align: center;
     padding: 5% 5%;
-    background: #262626;
+    /* background: #262626; */
     color: #fff;
     border-radius: 15px;
     padding-top: 40%;
