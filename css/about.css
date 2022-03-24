@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 }
 .about-us {
   width: 100%;
-  padding: 78px 0px;
+  padding: 0px;
   background-color: #000707;
 }
 .about-us img {
@@ -25,9 +25,9 @@
 .main h6 {
   color: red;
 }
-.about-text{
+.about-text {
   text-align: center;
-  width:100%;
+  width: 100%;
 }
 .about-text h1 {
   color: rgb(224, 201, 201);
@@ -35,7 +35,7 @@
   text-transform: capitalize;
   margin-bottom: 20px;
   margin-left: 5px;
-  }
+}
 .about-text h5 {
   color: white;
   font-size: 25px;
@@ -72,12 +72,12 @@ button:hover {
 }
 h6 {
   color: white;
-  background-color: rgb(48, 45, 45);
+  background-color: rgb(12, 7, 7);
   text-align: center;
   margin-top: 20%;
 }
 .image {
-  background-color: rgb(48, 45, 45);
+  background-color: rgb(24, 23, 23);
   display: flex;
   justify-content: space-around;
 }
@@ -85,18 +85,32 @@ h6 {
   width: 600px;
   margin-top: 30px;
 }
-.us{
+.us {
   background-color: #000707;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 10px; 
+  height: 30vh;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin-bottom: 10px;  */
+  /* position: absolute; */
 }
-.us p{
+.us p {
   color: white;
   justify-content: center;
 }
-.us h4{
+.us h4 {
   color: white;
   margin: 20px;
+}
+.vision-p,
+.mission-p,
+.value-p {
+  width: 20%;
+  position: absolute;
+  display: none;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
 }
