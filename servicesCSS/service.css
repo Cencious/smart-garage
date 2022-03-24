@@ -4,17 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
 }
 
 .bg-image {
     background-image: url("../servicesImages/garage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
 }
 
 .mask {
-    height: 100vh;
+    height: 110vh;
 }
 
 .text-services {
@@ -24,6 +26,14 @@
     align-items: center;
     padding-top: 50px;
 }
+
+.text-services span {
+    font-size: 28px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+
 
 .bg-image h1 {
     text-align: center;
@@ -55,47 +65,26 @@
 }
 
 .what-we-do{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: black;
-    padding: 30px;
 }
 
-.services{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 150PX;
-}
-
-.col{
-    width: 25%;
-}
-
-.col p{
-    /* display: none; */
-    text-align: center;
-    font-size: 15px;
-}
-
-.what h2{
-    text-align: center;
+.what-we-do h2{
     color: red;
-    padding: 20px;
 }
 
-.col h5{
-    color: black;
-}
 
-.card1, 
-.card2, 
-.card3, 
-.card4, 
-.card5, 
-.card6 {
-    padding: 0 10px;
-    margin: 20px;
-}
+
+@media only screen and (max-width: 768px) {
+    .bg-image {
+        background-image: url("../servicesImages/garage.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 180vh;
+    }
+
+    .mask {
+        height: 180vh;
+    }
+    
+} ;
+
