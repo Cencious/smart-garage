@@ -7,6 +7,17 @@
     overflow-x: hidden;
     font-family: "Roboto", sans-serif;
 }
+.navbar-brand img {
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 10%;
+}
+nav#navigation ul li a {
+    color: black;
+}
+span#no {
+    color: black;
+}
 
 .bg-image {
     background-image: url("../servicesImages/garage.jpg");
