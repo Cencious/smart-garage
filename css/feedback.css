@@ -107,3 +107,7 @@ textarea {
     border-radius: 5px;
     
 }
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
