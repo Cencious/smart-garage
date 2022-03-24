@@ -8,7 +8,7 @@ $(document).ready(function () {
         if (name == "" || email == "" || myDate == "" || time == "") {
             alert("Please fill in the details")
         } else {
-            alert("Hi " + name + "Thank you for booking with us. You have book on " + myDate + "" + "at" + time)
+            alert("Hello " + name + "Thank you for booking with us. You have book on " + myDate + "" + "at" + time)
         }
     })
 })
