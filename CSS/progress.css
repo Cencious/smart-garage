@@ -11,6 +11,18 @@ body {
     color: black;
     font-family: 'Roboto', sans-serif;
 }
+
+.navbar-brand img {
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 10%;
+}
+nav#navigation ul li a {
+    color: black;
+}
+span#no {
+    color: black;
+}
 .myPage {
     background-image: url(../IMG/Garage_images/garage1.jpg);
     background-size: 100% 100%;
