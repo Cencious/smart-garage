@@ -1,0 +1,21 @@
+@media only screen and (max-width:650px){
+    .forms {
+        flex-direction: column;
+        font-size: small;
+    }
+    .block1 , .notify {
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+}
+
+@media only screen and (max-width:300px){
+    .notify{
+        height: 40vh;
+    }
+    .btn {
+        width: 70%;
+        font-size: x-small;
+    }
+}

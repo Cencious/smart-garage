@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(245, 237, 237);
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    height: 50px;
+    margin-left: 10%;
+}
+nav#navigation ul li a {
+    color: black;
+}
+span#no {
+    color: black;
+}
+
+
+.cart ion-icon {
+    font-size: 20px;
+    padding-right: 5px;
+    color: #fff;
+}
+
+.cart a{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart a :hover{
+    color: red;
+}
+
+.head-text h1 {
+    color: black;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.product-sale {
+    margin: 80px auto;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: red;
+    font-weight: 600;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: red;
+    font-size: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid red;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+.categories {
+    margin: 70px, 0;
+}
+
+.category1 , .category2 {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.cats {
+    flex-basis: 25%;
+    margin-bottom: 50px;
+    min-width: 250px;
+    padding-left: 10px;
+    transition: transform 0.5s;
+}
+
+.cats a{
+    color: red;
+}
+
+
+
+.cats :hover {
+    transform: translateY(-5px);
+}
+
+.cats h4 {
+    position: relative;
+    font-size: 14px;
+    padding-top: 5px;
+    font-weight: 400;
+
+}
+
+
+
+.cats img {
+    width: 100%;
+}
+
+.rating ion-icon {
+    color: red;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:600px) {
+
+    .product-item p {
+        font-size: 17px;
+    }
+
+
+
+}
+
+;

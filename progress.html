@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/progress.css">
+    <link rel="stylesheet" href="./CSS/pmedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./JS/progress.js"></script>
+    <title>smart garage</title>
+  </head>
+  <body>
+      
+
+
+      <div class="myPage">
+        <div class="overlay">
+
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark bg-danger" id="navbarContent">
+                <a class="navbar-brand" href="#"><img src="./IMG/logo.jpeg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent
+                " aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">HOME</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="about.html">ABOUT US</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="product.html">PRODUCTS</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="feedback.html">FEEDBACK</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="login.html">LOGIN</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="book.html">BOOK A SESSION</a></li>
+                        <li class="nav-item px-5"><a class="nav-link" href="#con">CONTACT US</a></li>
+                        <ul class="navbar-nav">
+                            <!-- Badge -->
+                            <li class="cart">
+                              <a class="nav-link" href="#cart-products">
+                                <span class="badge badge-pill bg-danger" id="no">0</span>
+                                <span><ion-icon name="cart"></ion-icon></span>
+                              </a>
+                            </li>
+                          </ul>
+                    </ul>
+                </nav>
+            </nav>
+        </div>
+
+          <h3>Smart Garage Progress Tracking</h3>
+
+      <div class="details">
+        car owner
+        <input class="form-control" type="text" id="car-owner" placeholder="John Parvard" aria-label="default input example" required>
+
+        registration plate
+        <input class="form-control" type="text" id="plate" placeholder="KCZ..." aria-label="default input example" required>
+
+      </div>
+
+      
+      <div class="forms">
+        <div class="block1">
+
+
+          <div class="container">
+              <p>Repair checklist</p>
+             <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" id="engine" value="engine" >
+                 <label class="form-check-label" for="flexCheckDefault">
+                   engine
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" id="fuel" value="fuel-system" >
+                 <label class="form-check-label" for="flexCheckDefault">
+                   fuel system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" id="exhaust" value="exhaust-system" >
+                 <label class="form-check-label" for="flexCheckDefault">
+                   exhaust system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" id="cooling" value="cooling-system" >
+                 <label class="form-check-label" for="flexCheckDefault">
+                   cooling system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" value="lubrication-system" id="lubrication">
+                 <label class="form-check-label" for="flexCheckDefault">
+                   lubrication system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" value="electrical-system" id="electrical">
+                 <label class="form-check-label" for="flexCheckDefault">
+                   electrical system
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" value="transmission" id="transmission">
+                 <label class="form-check-label" for="flexCheckDefault">
+                   transmission
+                 </label>
+               </div>
+     
+               <div class="form-check">
+                 <input class="form-check-input" type="checkbox" name="repair" value="chassis" id="chassis">
+                 <label class="form-check-label" for="flexCheckDefault">
+                   chassis
+                 </label>
+               </div>
+     
+               Is repair complete?
+               <select class="form-select" aria-label="Default select example" id="isComplete">
+                 <option value="yes">yes</option>
+                 <option value="no">no</option>
+               </select>
+          </div>       
+          </div>
+         
+ 
+      <div class="notify">
+          <p>notify car owner on progress</p>
+          <button type="button" id="progress" class="btn btn-dark">Notify progress</button>
+ 
+          <p>notify car owner on completion</p>
+          <button type="button" id="completion" class="btn btn-dark">Notify on completion</button>
+ 
+      </div>
+      </div>
+     
+      <div class="results">
+        
+
+      </div>
+
+      <div class="price">
+
+      </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+<footer class="bg-dark text-center footer text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a href="https://web.facebook.com/profile.php?id=100073236677700" class="fa fa-facebook"></a>
+
+      <!-- Twitter -->
+      <a href="https://twitter.com/Aust1inn" class="fa fa-twitter"></a>
+
+
+      <!-- Youtube -->
+      <a href="https://www.youtube.com/channel/UCJ5pzKejXZuy7E_31I76gQw" class="fa fa-youtube"></a>
+
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/aust1inn/" class="fa fa-instagram"></a>
+
+
+      <!-- Linkedin -->
+      <a href="#" class="fa fa-linkedin"></a>
+
+      <!-- Google -->
+      <a href="#" class="fa fa-google"></a>
+
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+
+      <div class="contact" id="con">
+        <!-- <h6 class="text-uppercase fw-bold mb-4">
+          Contact
+        </h6> -->
+        <p><i class="fas fa-home me-3"></i> Nairobi, N 00200, KEN</p>
+        <p>
+          <i class="fas fa-envelope me-3"></i>
+          smartgarage@gmail.com
+        </p>
+        <p><i class="fas fa-phone me-3"></i> + 254 234 567 88</p>
+        <p><i class="fas fa-print me-3"></i> + 254 234 567 89</p>
+      </div>
+      
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        An online management system that will help link the car owners to garage owners, location of the garage and help the garage owner track whatever repairs done, and alert the owner once its done plus the charges
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="#">Smartgarage</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

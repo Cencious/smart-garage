@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+.navbar-brand img {
+    border-radius: 50%;
+    height: 50px;
+    margin-left: 10%;
+}
+nav#navigation ul li a {
+    color: black;
+}
+span#no {
+    color: black;
+}
+
+.bg-image {
+    background-image: url("../servicesImages/garage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+
+.mask {
+    height: 110vh;
+}
+
+.text-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.text-services span {
+    font-size: 28px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+
+
+.bg-image h1 {
+    text-align: center;
+    color: red;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.bg-image p {
+    width: 60%;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.btn {
+    padding: 20px;
+    margin: 10PX;
+    border-radius: 10px;
+    border: none;
+    color: rgb(228, 7, 99);
+
+}
+
+.btn :hover {
+    background-color: black;
+}
+
+.what-we-do{
+    background-color: black;
+}
+
+.what-we-do h2{
+    color: red;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-image {
+        background-image: url("../servicesImages/garage.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 180vh;
+    }
+
+    .mask {
+        height: 180vh;
+    }
+    
+} ;
+
