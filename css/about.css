@@ -5,6 +5,17 @@
   box-sizing: border-box;
   font-family: roboto;
 }
+.navbar-brand img {
+  border-radius: 50%;
+  height: 100px;
+  margin-left: 10%;
+}
+nav#navigation ul li a {
+  color: black;
+}
+span#no {
+  color: black;
+}
 .about-us {
   width: 100%;
   padding: 0px;
