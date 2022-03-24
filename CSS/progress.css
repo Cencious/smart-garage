@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 10%;
+}
+nav#navigation ul li a {
+    color: black;
+}
+span#no {
+    color: black;
+}
+.myPage {
+    background-image: url(../IMG/Garage_images/garage1.jpg);
+    background-size: 100% 100%;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0 , 0.5);
+    background-size: 100% 100%;
+    color: white;
+}
+.card1 {
+    position: absolute;
+    left: -30%;
+    z-index: -1;
+}
+h3 {
+    font-weight: bolder;
+}
+.forms {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.block1{
+    background-color: rgb(153, 10, 10);
+    width: 30%;
+    height: 60vh;
+    color: white;
+    position: relative;
+    overflow: visible;
+    font-weight: bolder;
+    border-radius: 5%;
+}
+
+.details {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.checks {
+    display: flex;
+    flex-direction: column;
+}
+
+.notify {
+    background-color: rgb(163, 14, 14);
+    width: 30%;
+    height: 30vh;
+    color: white;
+    margin-top: 2%;
+    border-radius: 5%;
+    font-weight: bolder;
+}
+.results {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.price {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
