@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mdb.dark.min.css">
+    <link rel="stylesheet" href="./css/mdb.min.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./productCss/product.css">
+    <title>Products</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-danger" id="navbarContent">
+            <!-- <a class="navbar-brand" href="#"><img src="./servicesImages/icon.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent
+            " aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <nav class="collapse navbar-collapse" id="navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">ABOUT US</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product.html">PRODUCTS</a></li>
+                    <li class="nav-item "><a class="nav-link" href="services.html">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">FEEDBACK</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">LOGIN</a></li>
+                    <li class="nav-item"><a class="nav-link" href="book.html">BOOK A SESSION</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#con">CONTACT US</a></li>
+                    <ul class="navbar-nav">
+                        <!-- Badge -->
+                        <li class="cart">
+                            <a class="nav-link" href="#cart-products">
+                                <span class="badge badge-pill bg-danger" id="no">0</span>
+                                <span>
+                                    <ion-icon name="cart"></ion-icon>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+            </nav>
+        </nav>
+    </div>
+    <div class="categories-title">
+        <h2 class="text-center text-black">Our Featured Categories</h2>
+    </div>
+    <div class="categories">
+        <div class="small-container category1 text-black">
+            <div class="row">
+
+                <div class="col-4 cats">
+                    <img src="./servicesImages/suspension.jpg" alt="Car Suspension">
+                    <h4>Car Suspension</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>Ksh 10,000</p>
+                    <a class="add-cart" href="#">Add To Cart +</a>
+                </div>
+                <div class="col-4 cats">
+                    <img src="./servicesImages/car-wash.jpg" alt="">
+                    <h4>Car Wash</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <p> Ksh 10,000 </p>
+                    <a class="add-cart" href="#">Add To Cart +</a>
+                </div>
+                <div class="col-4 cats">
+                    <img src="./servicesImages/engine.jpeg" alt="">
+                    <h4>Engine</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p> Ksh 100,000 </p>
+                    <a class="add-cart" href="#">Add To Cart +</a>
+                </div>
+                <div class="col-4 cats ">
+                    <img src="./servicesImages/light2.jpeg" alt="">
+                    <h4>Car Lights</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <p>Ksh 10,000</p>
+                    <a class="add-cart" href="#">Add To Cart +</a>
+                </div>
+            </div>
+        </div>
+        <div class="small-container category2 text-black">
+            <div class="row">
+
+                <div class="col-4 cats h-100">
+                    <img src="./servicesImages/car-seat.jpeg" alt="">
+                    <h4>Car Seat</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>Ksh 10,000</p>
+                    <a class="add-cart" href="#">Add To Cart +</a>
+                </div>
+                <div class="col-4 cats h-100">
+                    <img src="./servicesImages/red-door.jpeg" alt="">
+                    <h4>Car Door</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <p> Ksh 10,000 </p>
+                    <a class="add-cart" href="#">Add To Cart +</a>
+                </div>
+                <div class="col-4 cats h-100">
+                    <img src="./servicesImages/break-pads.jpeg" alt="">
+                    <h4>Break Pads</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p> Ksh 10,000 </p>
+                    <a class="add-cart" href="#">Add To Cart +</a>
+                </div>
+                <div class="col-4 cats h-100 ">
+                    <img src="./servicesImages/bonnet.jpeg" alt="">
+                    <h4>Car Bonnet</h4>
+                    <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+                    <p>Ksh 10,000</p>
+                    <a class="add-cart " href="#">Add To Cart +</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="product-page">
+        <div class="head-text">
+            <h2 class="text-center text-black">CART</h2>
+            <p class="text-center text-black">Proceed To Order:</p>
+        </div>
+        <div class="product-sale container" id="cart-products">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="product-item">
+                            <img src="./servicesImages/car-seat.jpeg" alt="car-seat">
+                            <div class="seat-description">
+                                <p> Black leather seat.
+                                </p>
+                                <p>Ksh 10,000</p>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="0"></td>
+                    <td>Ksh. 10,000</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="product-item">
+                            <img src="./servicesImages/engine.jpeg" alt="car-seat">
+                            <div class="engine-description">
+                                <p> Silver Engine Block.
+                                </p>
+                                <p>Ksh 10,000</p>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="0"></td>
+                    <td>Ksh. 10,000</td>
+                </tr>
+                <!-- <tr>
+                <td>
+                    <div class="product-item">
+                        <img src="./servicesImages/suspension.jpg" alt="car-seat">
+                        <div class="shocks-description">
+                            <p> Blue Suspension.
+                            </p>
+                            <p>Ksh 10,000</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0"></td>
+                <td>Ksh. </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-item">
+                        <img src="./servicesImages/tyre.jpg" alt="car-seat">
+                        <div class="battery-description">
+                            <p> Two Black Tyres.
+                            </p>
+                            <p>Ksh 10,000</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0"></td>
+                <td>Ksh. </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-item">
+                        <img src="./servicesImages/sound-system.jpeg" alt="sound system">
+                        <div class="sound-description">
+                            <p> Black Sound System.
+                            </p>
+                            <p>Ksh 10,000</p>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="0"></td>
+                <td>Ksh. </td>
+            </tr>
+        </table>
+
+<div class="total-price">
+    <table>
+        <tr>
+            <td>Total Price</td>
+            <td>Ksh </td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td>Ksh </td>
+        </tr>
+        <tr>
+            <td>Total Price</td>
+            <td>Ksh </td>
+        </tr> -->
+            </table>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-dark text-center footer text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a href="https://web.facebook.com/profile.php?id=100073236677700" class="fa fa-facebook"></a>
+
+                <!-- Twitter -->
+                <a href="https://twitter.com/Aust1inn" class="fa fa-twitter"></a>
+
+
+                <!-- Youtube -->
+                <a href="https://www.youtube.com/channel/UCJ5pzKejXZuy7E_31I76gQw" class="fa fa-youtube"></a>
+
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/aust1inn/" class="fa fa-instagram"></a>
+
+
+                <!-- Linkedin -->
+                <a href="#" class="fa fa-linkedin"></a>
+
+                <!-- Google -->
+                <a href="#" class="fa fa-google"></a>
+
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" />
+                                <label class="form-label" for="form5Example21">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+
+                <div class="contact">
+                    <!-- <h6 class="text-uppercase fw-bold mb-4">
+                Contact
+              </h6> -->
+                    <p><i class="fas fa-home me-3"></i> Nairobi, N 00200, KEN</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        smartgarage@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 254 234 567 88</p>
+                    <p><i class="fas fa-print me-3"></i> + 254 234 567 89</p>
+                </div>
+
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    An online management system that will help link the car owners to garage owners, location of the
+                    garage and help the garage owner track whatever repairs done, and alert the owner once its done plus
+                    the charges
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="#">Smartgarage</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./productJS/product.js"></script>
+
+</body>
+
+</html>
