@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/* services */
+.services{
+    background-color: grey;
+    color: white;
+}
+/* form section */
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    width: 100%;
+    position: absolute;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.book {
+    background: url('../images/black-and-white-car-vehicle-vintage.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;   
+} 
+navbar-brand img {
+    border-radius: 50%;
+    height: 100px;
+    margin-left: 10%;
+}
+nav#navigation ul li a {
+    color: black;
+}
+span#no {
+    color: black;
+}
+.span{
+    color: red;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
