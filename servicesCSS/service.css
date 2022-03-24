@@ -19,6 +19,19 @@ span#no {
     color: black;
 }
 
+.cart ion-icon {
+    font-size: 20px;
+    padding-right: 5px;
+    color: #fff;
+}
+
+.cart a{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .bg-image {
     background-image: url("../servicesImages/garage.jpg");
     background-repeat: no-repeat;
